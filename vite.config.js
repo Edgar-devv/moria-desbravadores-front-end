@@ -5,6 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-      https: false, // Desabilita o HTTPS no servidor local
-    },
+      https: false // Desabilita o HTTPS no servidor local
+    }
 })
